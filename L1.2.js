@@ -1,3 +1,5 @@
+// Числа Фибоначчи до N: вывести все числа Фибоначчи, меньшие введённого числа N. 
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
