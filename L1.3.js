@@ -1,3 +1,6 @@
+// Простые числа до N: вывести все простые числа до числа N с
+// использованием цикла `for`
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
