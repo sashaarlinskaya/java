@@ -11,7 +11,7 @@ rl.question('Введите число N: ', (input) => {
     for (let num = 2; num <= N; num++) {
         let isPrime = true;
 
-        for (let i = 2; i <= Math.sqrt(num); i++) { // Оптимизация: проверяем до корня из num
+        for (let i = 2; i <= Math.sqrt(num); i++) { //  проверяем до корня из num
             if (num % i === 0) {
                 isPrime = false;
                 break;
