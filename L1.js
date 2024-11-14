@@ -1,3 +1,6 @@
+// Определить, является ли число простым: пользователь вводит число,
+// программа проверяет, простое оно или нет
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
