@@ -1,8 +1,8 @@
 // 3. Реверс массива. Выведите элементы массива в обратном порядке. 
 
-let numbers = [1, 2, 3, 4, 5, 6, 7];
-let reverseNum = [...numbers].reverse();
+let numbers = [1, 2, 5, 7];
+numbers.sort((a,b) => b-a);
 
-console.log('Измененный массив:', reverseNum); 
 
+console.log(numbers);
 
